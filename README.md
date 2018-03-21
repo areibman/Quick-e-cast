@@ -1,5 +1,5 @@
-# Sales-forecasting-with-ML
-Forecasting the sales of a quick serve restaurant chain using Python,
+# Sales forecasting with ML
+Ever wanted to predict the future? Here's a thorough workthrough of how to do it. I go step by step from data cleaning to model evaluation. Rolling window CV, vizualization, feature importance analysis, and other steps also included.
 
 ### Information: 
 Contains: 
