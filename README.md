@@ -7,7 +7,31 @@ Contains:
 * Complete workbook
 * (TODO) Quick workbook
 
-### Data:
+The dataset is rather large, please DM me if you would like access.
+
+## Objective:
+• Analyze time series sales data for 14 quick-serve food chains
+• Identify trends in purchasing over time
+• Determine key periods of performance
+• Identify top predictors
+• Create forecast for future sales
+
+## Data Modeling Process:
+
+• One-hot encode categorical features
+• Remove negative and large outliers from training set
+• Include rolling averages for the entire franchise as well as each
+individual store
+• Scale data in values between 0 and 1
+• Test 5 separate models:
+• General goodness of fit
+• Rolling window cross validation
+• Two separate modeling processes:
+• Model all data available across all stores and make predictions
+• Model data unique to each store and make predictions
+
+## Data Description:
+(https://github.com/areibman/Quick-e-cast/blob/master/Screen%20Shot%202018-04-06%20at%204.51.51%20PM.png)
 The column descriptions are:
 1. Store_ID
 2. Fiscal_Quarter
@@ -19,8 +43,7 @@ The column descriptions are:
 8. Avg Hourly Temperature during this hour at this store
 9. Sales Revenue during this hour (target)
 
-The dataset is rather large, please DM me if you would like access.
-
-
 ### How to run
 Use the `jupyter notebook` to run the notebook.
+
+
