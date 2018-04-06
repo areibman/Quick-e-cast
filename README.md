@@ -97,7 +97,7 @@ individual store
 * Decision tree based models-
     * Random Forest Regression
     * Gradient Boosting Regression
-• Models were chosen on a basis of interpretability, intuitiveness, and performance.
+* Models were chosen on a basis of interpretability, intuitiveness, and performance.
 
 ## Metrics
 
@@ -138,5 +138,5 @@ Models were tested by two categories:
 * Each store shows a lunch rush trend
 * Models fit on data unique to each store perform significantly
 better
-* “Predictionisdifficult,especiallyaboutthefuture.”--NielsBohr
+* “Prediction is difficult, especially about the future.” -- Niels Bohr
 
