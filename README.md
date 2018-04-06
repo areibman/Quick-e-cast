@@ -30,9 +30,14 @@ individual store
 • Model all data available across all stores and make predictions
 • Model data unique to each store and make predictions
 
+![Image of Yaktocat]
+(https://octodex.github.com/images/yaktocat.png)
+
 ## Data Description:
+
 ![Image of Data]
 (https://raw.githubusercontent.com/areibman/Quick-e-cast/master/Screen%20Shot%202018-04-06%20at%204.51.51%20PM.png)
+
 The column descriptions are:
 1. Store_ID
 2. Fiscal_Quarter
@@ -47,6 +52,3 @@ The column descriptions are:
 ### How to run
 Use the `jupyter notebook` to run the notebook.
 
-
-![Image of Yaktocat]
-(https://octodex.github.com/images/yaktocat.png)
