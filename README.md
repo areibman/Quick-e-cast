@@ -23,17 +23,17 @@ The dataset is rather large, please DM me if you would like access.
 
 ## Data Modeling Process:
 
-• One-hot encode categorical features
-• Remove negative and large outliers from training set
-• Include rolling averages for the entire franchise as well as each
+* One-hot encode categorical features
+* Remove negative and large outliers from training set
+* Include rolling averages for the entire franchise as well as each
 individual store
-• Scale data in values between 0 and 1
-• Test 5 separate models:
-• General goodness of fit
-• Rolling window cross validation
-• Two separate modeling processes:
-• Model all data available across all stores and make predictions
-• Model data unique to each store and make predictions
+* Scale data in values between 0 and 1
+* Test 5 separate models:
+* General goodness of fit
+* Rolling window cross validation
+* Two separate modeling processes:
+* Model all data available across all stores and make predictions
+* Model data unique to each store and make predictions
 
 ## Data Description:
 
@@ -60,36 +60,36 @@ The column descriptions are:
 ## Distributions
 ![Distributions](https://raw.githubusercontent.com/areibman/Quick-e-cast/master/Screen%20Shot%202018-04-06%20at%204.52.28%20PM.png)
 
-• Large irregularities lead to skewed distributions.
-• Negative values present
+* Large irregularities lead to skewed distributions.
+* Negative values present
 
 ## Transform categorical features into dummy variables
 The following features were one-hot encoded:
-• Fiscal_Qtr- A dummy variable for each quarter
-• Fiscal_dayofWk- 1 through 7
-• Daypart- Breakfast, lunch, dinner, etc.
-• Hourly Weather- Clear-day, rain, etc.
-• Store_ID
+* Fiscal_Qtr- A dummy variable for each quarter
+* Fiscal_dayofWk- 1 through 7
+* Daypart- Breakfast, lunch, dinner, etc.
+* Hourly Weather- Clear-day, rain, etc.
+* Store_ID
 Holidays did not seem to vary enough to warrant encoding.
 
 ## Modifications
-• Negative values removed
-• Any value greater 10 standard deviations from the
+* Negative values removed
+* Any value greater 10 standard deviations from the
 mean removed
 
 ## Rolling Mean
-• Encode average daily sales of all stores from previous day
+* Encode average daily sales of all stores from previous day
 ![Rolling mean](https://raw.githubusercontent.com/areibman/Quick-e-cast/master/Screen%20Shot%202018-04-06%20at%204.52.47%20PM.png)
-• Average daily sales from each individual store
+* Average daily sales from each individual store
 [!Rolling mean sales](https://raw.githubusercontent.com/areibman/Quick-e-cast/master/Screen%20Shot%202018-04-06%20at%204.53.05%20PM.png)
 
 ## Predictive Models
 Categories of models
-• Generalized models- fit on sales revenue for all
+* Generalized models- fit on sales revenue for all
 stores
-• Store specific models- fit on sales revenue for each
+* Store specific models- fit on sales revenue for each
 individual store
-• 5 separate models selected:
+* 5 separate models selected:
 * Linear models:
     * Linear regression (ordinary least squares)
     * Ridge Regression
@@ -134,9 +134,9 @@ Models were tested by two categories:
 ![features](https://raw.githubusercontent.com/areibman/Quick-e-cast/master/Screen%20Shot%202018-04-06%20at%205.00.28%20PM.png)
 
 ## Summary
-• Gradient boosting regression yields the best performance of the models selected and gives insight as to which features matter the most
-• Each store shows a lunch rush trend
-• Models fit on data unique to each store perform significantly
+* Gradient boosting regression yields the best performance of the models selected and gives insight as to which features matter the most
+* Each store shows a lunch rush trend
+* Models fit on data unique to each store perform significantly
 better
-• “Predictionisdifficult,especiallyaboutthefuture.”--NielsBohr
+* “Predictionisdifficult,especiallyaboutthefuture.”--NielsBohr
 
