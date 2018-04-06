@@ -3,7 +3,7 @@ Ever wanted to predict the future? Here's a thorough workthrough of how to do it
 
 ### How to run
 Use the `jupyter notebook` to run the notebook.
-For a full detailed workthrough, run the notebook or visit: http://nbviewer.jupyter.org/github/areibman/Quick-e-cast/blob/master/Sales%20Forecasting.ipynb
+For a full detailed workthrough, run the notebook or visit: [nbviewer](http://nbviewer.jupyter.org/github/areibman/Quick-e-cast/blob/master/Sales%20Forecasting.ipynb)
 
 
 ### Information: 
@@ -15,11 +15,11 @@ Contains:
 The dataset is rather large, please DM me if you would like access.
 
 ## Objective:
-• Analyze time series sales data for 14 quick-serve food chains
-• Identify trends in purchasing over time
-• Determine key periods of performance
-• Identify top predictors
-• Create forecast for future sales
+* Analyze time series sales data for 14 quick-serve food chains
+* Identify trends in purchasing over time
+* Determine key periods of performance
+* Identify top predictors
+* Create forecast for future sales
 
 ## Data Modeling Process:
 
