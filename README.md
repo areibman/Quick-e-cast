@@ -48,3 +48,5 @@ The column descriptions are:
 Use the `jupyter notebook` to run the notebook.
 
 
+![Image of Yaktocat]
+(https://octodex.github.com/images/yaktocat.png)
