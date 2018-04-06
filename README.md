@@ -31,6 +31,7 @@ individual store
 • Model data unique to each store and make predictions
 
 ## Data Description:
+![Image of Data]
 (https://github.com/areibman/Quick-e-cast/blob/master/Screen%20Shot%202018-04-06%20at%204.51.51%20PM.png)
 The column descriptions are:
 1. Store_ID
